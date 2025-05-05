@@ -1,4 +1,4 @@
-# Empowerment Lander
+# Adaptive Assistance via Empowerment and Goal Inference
 
 Codebase built on work from https://github.com/yuqingd/ave/tree/master/empowerment_lander
 
