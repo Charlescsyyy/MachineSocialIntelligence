@@ -1,0 +1,10 @@
+Logging to D:\Data\Desktop\v4\ave_assist\data\human_co
+Saving model due to mean reward increase: None -> -0.3
+--------------------------------------
+| episodes                | 1.9e+04  |
+| mean 100 episode crash  | 0        |
+| mean 100 episode reward | -0.5     |
+| mean 100 episode succ   | 0.01     |
+| steps                   | 1.89e+04 |
+--------------------------------------
+Restored model with mean reward: -0.3

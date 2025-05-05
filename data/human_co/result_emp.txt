@@ -1,0 +1,3 @@
+Empowerment: 0.001
+Mean reward: -0.7210468661971583
+Outcome distribution: Counter({0: 24892, -100: 57, 100: 51})
