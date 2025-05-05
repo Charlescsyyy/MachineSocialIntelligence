@@ -1,6 +1,6 @@
 # Empowerment Lander
 
-Codebase built on work from [https://github.com/rddy/deepassist. ](https://github.com/Smashell10/AvE_Forecast/tree/faayez/empowerment_lander)
+Codebase built on work from [https://github.com/Smashell10/AvE_Forecast/tree/faayez/empowerment_lander. ](https://github.com/Smashell10/AvE_Forecast/tree/faayez/empowerment_lander)
 
 To set up required packages, use `environment.yml` with conda or `requirements.txt` with pip.
 If using conda, activate the environment using `conda activate lander`. Then install OpenAI Baselines
