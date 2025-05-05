@@ -7,8 +7,11 @@ If using conda, activate the environment using `conda activate lander`. Then ins
 using `pip install -e baselines`.
 
 For Human solo: `python run_scripts/human_solo.py `.
+
 Human and Empowerment: `python run_scripts/human_emp.py --empowerment`.
+
 Train RLGI to obtain `policies/goal_rl.pkl`:`python run_scripts/train_goal_inference.py --steps 500000 --save policies/goal_rl.pkl`.
+
 Human+Empowerment+RLGI: `python run_scripts/human_emp.py --empowerment --goal_rl policies/goal_rl.pkl`
 
 
