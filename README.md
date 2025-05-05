@@ -1,20 +1,15 @@
 # Empowerment Lander
 
-Codebase built on work from https://github.com/rddy/deepassist. 
+Codebase built on work from [https://github.com/rddy/deepassist. ](https://github.com/Smashell10/AvE_Forecast/tree/faayez/empowerment_lander)
 
 To set up required packages, use `environment.yml` with conda or `requirements.txt` with pip.
 If using conda, activate the environment using `conda activate lander`. Then install OpenAI Baselines
 using `pip install -e baselines`.
 
-To only train simulated pilots, run `train_sim_pilots.py`.
-To train simulated pilots and assistive copilots, run `train_copilot.py` with the argument `--empowerment` for adjusting empowerment coefficient (0 for no empowerment).
-This will also automatically run the cross evaluation tests. 
+For Human solo: `python run_scripts/human_solo.py `.
+Human and Empowerment: `python run_scripts/human_emp.py --empowerment`.
+Train RLGI to obtain `policies/goal_rl.pkl`:`python run_scripts/train_goal_inference.py --steps 500000 --save policies/goal_rl.pkl`.
+Human+Empowerment+RLGI: `python run_scripts/human_emp.py --empowerment --goal_rl policies/goal_rl.pkl`
 
-To replay policies, run `run_rollouts.py` and replace the copilots with the saved policies.
 
-To play the game (human trials), run the script `human_exp.sh`. This runs through the 
-scripts `run_scripts/human_solo.py`, which launches the vanilla game for getting accustomed to the controls,
-then `python run_scripts/human_emp.py --empowerment`, which launches the game with a copilot using empowerment, 
-then `python run_scripts/human_emp.py`, launches the game with a copilot without empowerment. Results will 
-be saved under a empowerment_lander/data folder. 
 
